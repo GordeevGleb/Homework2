@@ -49,6 +49,10 @@ while (true) {
         System.out.println("Cредний расход за все операции в году : " + yearReport.averageExpense());
         System.out.println("Средний доход за все операции в году : " + yearReport.averageSum());
     }
+    else if (command == 0) {
+        System.out.println("Прерываю работу программы.");
+        break;
+    }
 }
 
     }
